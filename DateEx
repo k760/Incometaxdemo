@@ -1,0 +1,17 @@
+import java.util.Date;
+import java.text.SimpleDateFormat;
+public class DateEx {
+public static void main(String args[])
+{
+Date d=new Date();
+System.out.println(d);
+Date d1=new Date (d.getTime ()+1000);
+System.out.println(d.after(d1));
+System.out.println(d.before(d2));
+System.out.println(d1.compareTo(d));
+system.out.println(d.compareTo(d1));
+SimpleDateFormat sdf=new SimpleDateFormat();
+Date dob=new Date (02/11/1968);
+System.out.println("My birthday is on sdf format (dob));
+}
+}
